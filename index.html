@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>HowlSafe</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <!--style="
+max-width: 100%;
+overflow-x: hidden;
+background-image: url('img/stars.png');
+"-->
+  <body
+    style="
+      max-width: 100%;
+      overflow-x: hidden;
+      background-image: url('img/stars.png');
+    "
+  >
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+  <div id="like_button_container"></div>
+    <!-- Start your project here-->
+    <div class="row">
+      <div class="col-3 mt-4" style="width: 20%">
+        <img src="img/separator - Copy.png" alt="" />
+      </div>
+      <div class="col-6">
+        <header class="ms-lg-5 ps-md-5">
+          <!-- Navbar -->
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-black font-weight-bold ps-5"
+          >
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div
+                class="collapse navbar-collapse mb-2"
+                id="navbarExample01"
+                style="font-size: 19px; font-family: 'Montserrat'"
+              >
+                <ul class="navbar-nav me-auto mt-1">
+                  <li class="nav-item active p-3 ms-4">
+                    <a
+                      class="nav-link text-white"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link text-white" href="#">Features</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link text-white" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item p-3 pe-0">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar -->
+        </header>
+      </div>
+      <div class="col-3 mt-4 p-0">
+        <img src="img/separator.png" alt="" />
+      </div>
+    </div>
+
+    <div class="text-center"  >
+        <img
+          src="img/HOWLSAFE.png"
+          style="height: 600px"
+          class="m-lg-0"
+          lt=""
+        />
+      </div>
+      <div class="col-4"></div>
+    </div>
+
+    <div class="row m-0 p-0">
+      <div class="col-3 m-0 p-0"></div>
+      <div class="col-6 m-0 p-0">
+        <img src="img/separator.png" style="width: 100%" alt="" />
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 text-center">
+        <form action="upload.html">
+          <button type="submit" class="btn-lg btn-primary m-2" name="submit">
+            ACCESS FILES
+          </button>
+        </form>
+      </div>
+      <div class="col-4"></div>
+    </div>
+
+    <!--Card-->
+    <div class="row mt-5 ps-3">
+      <div class="col-1"></div>
+      <div class="card-dark col-3 btn-outline-success m-3 pt-3">
+        <div
+          class="bg-image hover-overlay ripple"
+          data-mdb-ripple-color="light"
+        >
+          <img src="img/decentralized.png" class="img-fluid" />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.15)"
+            ></div>
+          </a>
+        </div>
+        <div class="card-body justify-content-center">
+          <h5 class="card-title text-center pb-3">DECENTRALIZED</h5>
+          <p class="card-text text-center">
+            Decentralized architecture with scattered nodes connected to
+            blockchain, but control of access and sharing of data lies solely
+            with the user
+          </p>
+        </div>
+      </div>
+      <div class="card-dark col-3 btn-outline-warning m-3 pt-3">
+        <div
+          class="bg-image hover-overlay ripple"
+          data-mdb-ripple-color="light"
+        >
+          <img src="img/security.png" class="img-fluid" />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.15)"
+            ></div>
+          </a>
+        </div>
+        <div class="card-body justify-content-center">
+          <h5 class="card-title text-center pb-3">SECURITY</h5>
+          <p class="card-text text-center">
+            Multiple authentication features and high level accessiblity.
+            Protocols on Ethereum secure and screen all data for malicious
+            programs
+          </p>
+        </div>
+      </div>
+      <div class="card-dark col-3 btn-outline-secondary m-3 pt-3">
+        <div
+          class="bg-image hover-overlay ripple"
+          data-mdb-ripple-color="light"
+        >
+          <img src="img/scalability.png" class="img-fluid" />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.15)"
+            ></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center pb-3">SCALABILITY</h5>
+          <p class="card-text text-center">
+            Highly scalable as nodes are willing to join instead having to
+            depend on local servers. Using crust and polygon, the cost can be
+            made negliible
+          </p>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <br><br><br><br><br>
+    
+
+    <!-- Footer -->
+<footer class="bg-black text-center text-white">
+  <hr style="width:100%;text-align:left;margin-left:0;color:grey; height: 3px;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+    <br>  
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-4"><img class="pt-5" src="img/hacknight.png" alt=""></div>
+      <div class="col-2"></div>
+      <div class="col-4"><img src="img/logo.png" style="height: 300px; width: 300px;" alt=""></div>
+      <div class="col-1"></div>
+    </div>    
+
+    <!-- Section: Text -->
+    <br><br><br>
+    <section class="mb-4">
+      <p style="font-family: Arial, Helvetica, sans-serif;">
+        HOWLSAFE : A mobile digital solution to tedious and insecure applications for sensitive data storage, retrieval, sharing and transactions
+      </p>
+    </section>
+    <br>
+    <section class="mb-4">
+      <div class="row">
+      <div class="col-4"><p>Tarun Gopinath</p></div>
+      <div class="col-4"><p>Anirudh C P</p></div>
+      <div class="col-4"><p>Kritin D Madhavan</p></div>
+    </div>
+    </section>
+  </div>
+  
+
+
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Team A*</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+    ></script>
+  </body>
+</html>
